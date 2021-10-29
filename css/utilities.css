@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&family=Lato:ital@1&family=Pacifico&family=Poppins:ital,wght@0,600;1,400&family=Roboto+Condensed:wght@300&display=swap");
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+.btn-primary {
+  transition: all 0.3s;
+  text-transform: uppercase;
+  background-color: var(--primary);
+  color: rgb(26, 25, 25);
+}
+.btn-primary:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  background-color: transparent;
+}
+.btn-secondary {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-secondary:hover {
+  transition: all 0.3s;
+  background-color: var(--primary);
+  color: white;
+}
+.flex-1{
+    flex: 1;
+}

@@ -17,7 +17,7 @@ body {
 }
 header {
   background-color: var(--dark);
-  clip-path: polygon(0 0, 100% 0,100% 100%,70% 90%,0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
 }
 .container {
   max-width: 1152px;
@@ -40,8 +40,8 @@ header nav {
 .branding {
   margin-right: 3rem;
 }
-.hero{
-    padding: 3rem 0;
+.hero {
+  padding: 3rem 0;
 }
 .hero .left img {
   width: 400px;
@@ -60,13 +60,115 @@ header nav {
   line-height: 1.2;
   margin-bottom: 2rem;
 }
-.hero .right h1 span{
-    color: var(--primary);
+.hero .right h1 span {
+  color: var(--primary);
 }
 .hero .right p {
-    line-height: 1.9;
-    margin-bottom: 2rem;
+  line-height: 1.9;
+  margin-bottom: 2rem;
 }
-.hero .right{
-    margin-top: -7rem;
+.hero .right {
+  margin-top: -7rem;
+}
+section {
+  padding: 6rem 0;
+}
+.about .about-me-img {
+  height: 450px;
+}
+.about h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.about h1 span {
+  color: var(--primary);
+}
+.about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.about p {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+  color: var(--turnery);
+}
+.social {
+  display: flex;
+}
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  background-color: var(--dark);
+  transition: all 0.3s;
+}
+.social a img {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+.social a:hover {
+  background-color: var(--primary);
+}
+.section-heading {
+  color: var(--light);
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 0.5;
+  color: rgb(34, 33, 33);
+}
+.section-heading span {
+  color: var(--primary);
+}
+.section-heading + p {
+  color: var(--dark);
+  font-family: "lato", sans-serif;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+.services {
+  background-color: var(--light);
+}
+.services .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
+.card {transition: all 0.4s ease;
+  text-align: center;
+  padding: 3rem 2rem;
+  position: relative;
+  background-color: var(--pure);
+  padding-top: 5rem;
+}
+.card img {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -3.5rem;
+  position: absolute;
+}
+.card h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  font-family: "lato", sans-serif;
+  color: var(--turnery);
+  line-height: 1.6rem;
+}
+.card:hover {
+  background-color: var(--dark);
+}
+.card:hover h2, .card:hover p {
+color: var(--pure);
 }
